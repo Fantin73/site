@@ -9,15 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style\navbar.css">
 </head>
 <body>
-    
-    <nav id="nav">
-        <ul class="navbar-list">
-            <li class="navbar-item"><a href="index.php">Página Inicial</a></li>
-            <li class="navbar-item"><a href="Penultimo.php">Sobre Nós</a></li>
-            <li class="navbar-item"><a href="Chat.php">Chat</a></li>
-            <li class="navbar-item"><a href="Login.php">Login</a></li>
-        </ul>
-    </nav>
+    <?php include 'menus/menu1.php';?>
     <div id="Navbar">
     <main>
 		<div id="slider">
